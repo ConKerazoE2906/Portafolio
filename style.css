@@ -1,0 +1,178 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f99d4;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 100px;
+    width: 130px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.emilio {
+    border-radius: 10%;
+    padding: 1%;
+    width: 770px;
+    height: 300px;
+}
+/* Estilos del contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E08C16;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Estilos del texto principal */
+.hero-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+}
+
+/* Estilos de la sección de proyectos */
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.project1, .project2, .project3 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 20px;
+    width: calc(30% - 30px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project1 img, .project2 img, .project3 img {
+    height: 200px;
+    width: 425px;
+    
+    border-radius: 10%;
+}
+
+/* Estilos de botones */
+.botones-encabezado, .botones-proyecto {
+    background-color: rgb(23, 23, 71);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.botones-encabezado{
+    margin: 3%;
+}
+
+.botones-proyecto {
+    margin: 12px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+    align-content: center;
+}
+
+/* Estilos del pie de página */
+.pie-pagina {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mensaje-contacto {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.mensaje-contacto input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mensaje-contacto button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: rgb(23, 23, 71);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.redes-sociales img {
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+}
+.instagram-img {
+    width: 55px;
+    height: 45px;
+}
+
+/* Estilos adicionales */
+.descripcion-footer {
+    text-align: justify;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
